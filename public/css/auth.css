@@ -1,0 +1,134 @@
+
+body.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; 
+    position: relative; 
+    overflow: hidden;
+}
+
+.auth-wave-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%; 
+    background-color: #004d99; 
+    z-index: 1; 
+    border-radius: 0 0 50% 50% / 0 0 20% 20%; 
+    transform: translateY(-20%);
+}
+
+.auth-wave-bg-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #004d99; 
+    z-index: 1;
+    border-radius: 50% 50% 0 0 / 20% 20% 0 0; 
+}
+
+
+
+.auth-card {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    max-width: 350px;
+    z-index: 10; 
+    text-align: center;
+}
+
+
+.auth-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #0066cc; 
+    border-radius: 50%;
+    margin: -80px auto 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    content: "👤"; 
+}
+
+.auth-card h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #0066cc; 
+    outline: none;
+}
+
+.btn-auth-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-auth-primary:hover {
+    background-color: #004d99;
+}
+
+
+.links a, .secondary-links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.secondary-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.secondary-links label {
+    font-weight: normal;
+}
+
+.text-danger {
+    color: #e74c3c;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
