@@ -1,4 +1,4 @@
-# 🚗 LOJA DE CARROS - GUIA RÁPIDO E BÁSICO
+# 🚗 LOJA DE CARROS - GUIA 
 
 ## 📝 Sobre Este Site
 
